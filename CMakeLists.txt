@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Pass information to the source code:
-configure_file(cmake/greeter_config.h.in greeter_cong.h )
+configure_file(cmake/greeter_config.h.in greeter_config.h )
 
 # Libraries (one folder per library in src/)
 add_subdirectory(src/greeter)
